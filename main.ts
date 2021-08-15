@@ -1,94 +1,35 @@
 basic.forever(function () {
-    music.playMelody("F G A - B A B - ", 120)
-    music.playMelody("B A B C5 - B A B ", 120)
-    music.playMelody("G A B - B A B - ", 120)
-    music.playMelody("A G A B - G F G ", 120)
-    music.playMelody("- - - - - - - - ", 120)
-    music.playMelody("- - - - - - - - ", 120)
-})
-basic.forever(function () {
-    basic.showLeds(`
-        . . # . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . # # # .
-        . . # . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        # # # # #
-        . # # # .
-        . . # . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        . # # # .
-        . . # . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . # # # .
-        # # # # #
-        # # # # #
-        # # # # #
-        . # # # .
-        `)
-    basic.showLeds(`
-        . # # # .
-        . # # # .
-        # # # # #
-        # # # # #
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        . . # . .
-        . # # # .
-        # # # # #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . # # # .
-        . . # . .
-        . . # . .
-        . # # # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . # . .
-        . . . . .
-        . . . . .
-        . . # . .
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . # # # .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . # . .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
+    music.playTone(494, music.beat(BeatFraction.Half))
+    music.playTone(494, music.beat(BeatFraction.Half))
+    music.playTone(554, music.beat(BeatFraction.Half))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.stopAllSounds()
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.playTone(587, music.beat(BeatFraction.Half))
+    music.playTone(622, music.beat(BeatFraction.Whole))
+    music.stopAllSounds()
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.playTone(554, music.beat(BeatFraction.Half))
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.playTone(740, music.beat(BeatFraction.Whole))
+    music.stopAllSounds()
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.playTone(554, music.beat(BeatFraction.Half))
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.stopAllSounds()
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.playTone(554, music.beat(BeatFraction.Half))
+    music.playTone(494, music.beat(BeatFraction.Half))
+    music.playTone(466, music.beat(BeatFraction.Half))
+    music.playTone(466, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Half))
+    music.playTone(554, music.beat(BeatFraction.Half))
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.stopAllSounds()
+    music.playTone(622, music.beat(BeatFraction.Quarter))
+    music.stopAllSounds()
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.playTone(622, music.beat(BeatFraction.Whole))
+    music.playTone(554, music.beat(BeatFraction.Half))
+    music.playTone(494, music.beat(BeatFraction.Whole))
 })
